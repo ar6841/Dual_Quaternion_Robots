@@ -1,3 +1,6 @@
 [submodule "Dual_Quaternion_Forward_Kinematics"]
 	path = Dual_Quaternion_Forward_Kinematics
 	url = https://github.com/ar6841/Dual_Quaternion_Forward_Kinematics
+[submodule "Dual_Quaternion_Control"]
+	path = Dual_Quaternion_Control
+	url = https://github.com/ar6841/Dual_Quaternion_Control
