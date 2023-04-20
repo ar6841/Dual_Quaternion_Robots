@@ -1,7 +1,7 @@
 # Dual_Quaternion_Robots
 Robotics projects using dual quaternion algebra, some example .cpp files are shown. The submodules contain header files for modelling and controlling the robots. This repo should help you learn about dual quaternions and how you can apply them to robotics.
 
-TODO: Expand definition
+TODO: Expand definitions and visualizations
 
 ## Background and motivation
 
@@ -49,17 +49,56 @@ Where $p, q \in \mathbb{R}$ and $\varepsilon^2=0$ while $\varepsilon \neq 0$.
 Suppose each part of the dual number above was a quaternion in itself,
 
 $$
-\underline{q}=\mathcal{P}(\underline{q})+\varepsilon \mathcal{D}(\underline{q})
+\underline{\boldsymbol{q}}=\underline{q}_p+\varepsilon \underline{q}_d
 $$
 
-Where $\mathcal{P}$ is the primary part and $\mathcal{D}$ is the dual part.
+Where $\underline{q}_p$ is the primary part and $\underline{q}_d$ is the dual part.
+
+$$
+\underline{q}_p=w_1+(x_1 \mathbf{i}+y_1 \mathbf{j}+z_1 \mathbf{k}) and, 
+\underline{q}_d=w_2+(x_2 \mathbf{i}+y_2 \mathbf{j}+z_2 \mathbf{k})
+$$
+
+The conjugate of a dual quaternion $\underline{\boldsymbol{q}}$ is:
+
+$$
+\underline{\boldsymbol{q}}^* = \underline{q}_p^* + \varepsilon \underline{q}_d^*
+$$
+
+The norm of a dual quaternion is given by:
+
+
+$$
+\|\|{\underline{\boldsymbol{q}}}\|\|=\sqrt{{\underline{\boldsymbol{q}}}^{\ast}{\underline{\boldsymbol{q}}}}=\sqrt{{\underline{\boldsymbol{q}}}{\underline{\boldsymbol{q}}}^{\ast}}
+$$
+
+
 
 ## Unit dual quaternions and rigid body motions
 
+If $\|\underline{\boldsymbol{q}}\|=1$ then the dual quaternion is known as a unit dual quaternion.
+
+The unit dual quaternion corresponding to the translation $tT followed by the rotation $r$ is
+given by: 
+
+Unit dual quaternions as frame transformations:
 
 
+This lets us encode both translation and rotation into one unique mathematical formulation, the applications of which are immense 
 
 ## List of resources to learn dualquats and apply it for robotics.
+
+I would go about learning the topics in this order, not all topics are listed as a good understanding of linear algebra is assumed:
+
+1. To understand quaternions and how they represent 3D rotations, I suggest watching [this 3Blue1Brown video](https://www.youtube.com/watch?v=d4EgbgTm0Bg)
+
+2. [A Beginners Guide to Dual-Quaternions](https://cs.gmu.edu/~jmlien/teaching/cs451/uploads/Main/dual-quaternion.pdf)
+
+3. [Robot Kinematic Modeling and Control Based on Dual Quaternion Algebra by Dr.Bruno Vilhena Adorno](https://hal.science/hal-01478225/file/Robot_Kinematic_Modeling_and_Control_Based_on_Dual_Quaternion_Algebra_Part_I_Fundamentals_28Feb2017.pdf)
+
+I suggest reading Dr.Bruno Vilhena Adorno's PhD thesis as well, and head on over to (DQ Robotics)[https://dqrobotics.github.io/]
+
+
 
 ## Refrences
 
