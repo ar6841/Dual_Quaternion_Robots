@@ -66,13 +66,13 @@ $$
 \underline{q}_d=w_2+(x_2 \mathbf{i}+y_2 \mathbf{j}+z_2 \mathbf{k})
 $$
 
-The conjugate of a dual quaternion $\underline{\boldsymbol{q}}$ is:
+### The conjugate of a dual quaternion $\underline{\boldsymbol{q}}$ is:
 
 $$
 \underline{\boldsymbol{q}}^* = \underline{q}_p^* + \varepsilon \underline{q}_d^*
 $$
 
-The norm of a dual quaternion is given by:
+### The norm of a dual quaternion is given by:
 
 
 $$
@@ -101,7 +101,7 @@ $$
 and $\boldsymbol{t}$ is a pure quaternion given by $\boldsymbol{t}=t_x \mathbf{i}+t_y \mathbf{j}+t_z \mathbf{k}$
 
 
-Unit dual quaternions as frame transformations:
+### Unit dual quaternions as frame transformations:
 
 If ${ }^0 \underline{q}_{1}$ reporesents a rotation and translation from frame ${0}$ to frame ${1}$. Then the composite successive transformations are given by:
 
@@ -110,7 +110,7 @@ $$
 { }^0 \underline{q}_{N}= { }^0 \underline{q}_{1}{ }^1 \underline{q}_{2}{ }^2 \underline{q}_{3}  . . .{ }^N{ }^-{ }^1 \underline{q}_{N} 
 $$
 
-The Adjoint operation:
+### The Adjoint operation:
 
 If we have a pure vector dual quaternion $\underline{v}$, defined in frame ${0}$ where the primary and dual parts are pure vector quaternions then we can tranform the frame of $\underline{v}$ by the adjoint operation :
 
