@@ -1,7 +1,7 @@
-#include "Dual_Quaternion_Forward_Kinematics/forward_kinematics_dualquaternion.h"
 #include<iostream>
-#include "Dual_Quaternion_Forward_Kinematics/jacobians.h"
+#include"Dual_Quaternion_Forward_Kinematics/kinematics.h"
 #include"Dual_Quaternion_Control/Dual_Pose_Control.h"
+
 
 // Order of joint vars {theta, alpha, a, d, type}
 int main()
@@ -35,6 +35,10 @@ int main()
     int N = static_cast<int>(ceil(total_time/dt)); 
 
     Eigen::Matrix<double,3,1> joint_vec_desired;
+
+    /*
+        Target joint configuration
+    */
     joint_vec_desired<<90,0,0;
 
     std::cout<<"\nJoint Vec desired: "<<joint_vec_desired<<std::endl;
@@ -45,6 +49,9 @@ int main()
 
     Output = Controller::pose_difference_controller(MyRobot,q_desired,dt,total_time,10.0);
 
+    /*
+        Did we reach target?
+    */
     std::cout<<"\nControl output : "<<Output.col(N-1)<<std::endl;
 
 
