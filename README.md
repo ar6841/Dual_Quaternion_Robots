@@ -107,7 +107,7 @@ If ${ }^0 \underline{q}_{1}$ reporesents a rotation and translation from frame $
 
 
 $$
-{ }^0 \underline{q}_{N}= { }^0 \underline{q}_{1}{ }^1 \underline{q}_{2}{ }^2 \underline{q}_{3}  . . .{ }^N{ }^-{ }^1 \underline{q}_{N} 
+{ }^0 \underline{q_N} =  { }^0 \underline{q_1}{ }^1 \underline{q_2} { }^2 \underline{q_3}  . . .{ }^N{ }^-{ }^1 \underline{q_N} 
 $$
 
 ### The Adjoint operation:
@@ -115,7 +115,7 @@ $$
 If we have a pure vector dual quaternion $\underline{v}$, defined in frame ${0}$ where the primary and dual parts are pure vector quaternions then we can tranform the frame of $\underline{v}$ by the adjoint operation :
 
 $$
-{ }^k \underline{v} = { }^0 \underline{q}_{k} { }^0\underline{v} ({ }^0 \underline{q}_{k})^*
+{ }^k \underline{v} = { }^0 \underline{q_k} { }^0\underline{v} ({ }^0 \underline{q_k})^*
 $$
 
 
