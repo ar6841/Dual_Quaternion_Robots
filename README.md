@@ -72,6 +72,10 @@ $$
 \underline{\boldsymbol{q}}^* = \underline{q}_p^* + \varepsilon \underline{q}_d^*
 $$
 
+Where $\underline{q}_p^*$ is the standard quaternion conjugate
+
+${\underline{q}_p}^*  = w - (x \mathbf{i} + y \mathbf{j} + z \mathbf{k})$
+
 ### The norm of a dual quaternion is given by:
 
 
