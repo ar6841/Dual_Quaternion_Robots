@@ -93,7 +93,7 @@ The unit dual quaternion corresponding to the translation $t$ followed by the ro
 given by: 
 
 $$
-\underline{\boldsymbol{q}}=\boldsymbol{t}+\varepsilon \frac{1}{2} \boldsymbol{t} \boldsymbol{r}
+\underline{\boldsymbol{q}}=\boldsymbol{r}+\varepsilon \frac{1}{2} \boldsymbol{t} \boldsymbol{r}
 $$
 
 $\boldsymbol{r}$ is our ration and we can define it using our known axis of rotaion $\boldsymbol{n}=n_x \mathbf{i}+n_y \mathbf{j}+n_z \mathbf{k}$, a pure imaginary quaternion and angle of rotation $\phi$
