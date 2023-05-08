@@ -143,7 +143,7 @@ I suggest reading Dr.Bruno Vilhena Adorno's PhD thesis as well, and head on over
 
 ## Notes
 
-Dual quaternions for graphics:
+### Dual quaternions for graphics:
 
 1. [Screw Linear Interpolation](https://arxiv.org/pdf/2303.13395.pdf)
 2. [Dual Quaternions for Rigid Transformation Blending](https://users.cs.utah.edu/~ladislav/kavan06dual/kavan06dual.pdf)
