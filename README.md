@@ -150,4 +150,4 @@ I suggest reading Dr.Bruno Vilhena Adorno's PhD thesis as well, and head on over
 3. [Enhanced Dual Quaternion Skinning](https://disneyanimation.com/publications/enhanced-dual-quaternion-skinning-for-production-use/#:~:text=Dual%20Quaternion%20Skinning%20(DQS)%20is,and%20effectively%20simulates%20volume%20preservation.)
 
 ### Other helpful videos
-1. [A quaternion version of Euler's formula](https://www.youtube.com/watch?v=dvpAFWBVgy0&t=548s)
+1. [A quaternion version of Euler's formula](https://www.youtube.com/watch?v=dvpAFWBVgy0&t=548s) *We can extend this easily into the dual quaternion space*
