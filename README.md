@@ -148,3 +148,6 @@ I suggest reading Dr.Bruno Vilhena Adorno's PhD thesis as well, and head on over
 1. [Screw Linear Interpolation](https://arxiv.org/pdf/2303.13395.pdf)
 2. [Dual Quaternions for Rigid Transformation Blending](https://users.cs.utah.edu/~ladislav/kavan06dual/kavan06dual.pdf)
 3. [Enhanced Dual Quaternion Skinning](https://disneyanimation.com/publications/enhanced-dual-quaternion-skinning-for-production-use/#:~:text=Dual%20Quaternion%20Skinning%20(DQS)%20is,and%20effectively%20simulates%20volume%20preservation.)
+
+### Other helpful videos
+1. [A quaternion version of Euler's formula](https://www.youtube.com/watch?v=dvpAFWBVgy0&t=548s)
