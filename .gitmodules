@@ -4,3 +4,6 @@
 [submodule "Dual_Quaternion_Control"]
 	path = Dual_Quaternion_Control
 	url = https://github.com/ar6841/Dual_Quaternion_Control
+[submodule "Dual_Quaternion_Dynamics"]
+	path = Dual_Quaternion_Dynamics
+	url = https://github.com/ar6841/Dual_Quaternion_Dynamics
