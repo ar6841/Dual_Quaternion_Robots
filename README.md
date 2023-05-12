@@ -139,8 +139,6 @@ I suggest reading Dr.Bruno Vilhena Adorno's PhD thesis as well, and head on over
 
 
 
-## Refrences
-
 ## Notes
 
 ### Dual quaternions for graphics:
@@ -151,3 +149,24 @@ I suggest reading Dr.Bruno Vilhena Adorno's PhD thesis as well, and head on over
 
 ### Other helpful videos
 1. [A quaternion version of Euler's formula](https://www.youtube.com/watch?v=dvpAFWBVgy0&t=548s) *We can extend this easily into the dual quaternion space*
+
+## Refrences
+
+[1] Adorno, B. V. (2011). *Two-arm Manipulation: From Manipulators to Enhanced Human-Robot Collaboration* [PhD dissertation]. Université de Montpellier II.
+
+[2] Adorno, B.V. (2017) *Robot Kinematic Modeling and Control Based on Dual
+Quaternion Algebra Part I: Fundamentals*, *ReasearchGate*. Available at:
+https://hal.science/hal-01478225v1 (Accessed: April 9, 2023).
+
+[3] Valverde, A. (2018) *Spacecraft Robot Kinematics Using Dual
+Quaternions*, *MDPI*. Available at:
+https://www.dcsl.gatech.edu/papers/mdpi18%20(Printed).pdf (Accessed:
+April 9, 2023).
+
+[4] Hoang-Lan Pham, Perdereau, V., Adorno, B. V., &amp; Fraisse, P. (2010). Position and orientation control of robot manipulators using dual quaternion feedback. *2010 IEEE/RSJ International Conference on Intelligent Robots and Systems.* https://doi.org/10.1109/iros.2010.5651097 
+
+[5] Özgür, E., &amp; Mezouar, Y. (2016). Kinematic modeling and control of a robot arm using unit dual quaternions. *Robotics and Autonomous Systems*, 77, 66–73. https://doi.org/10.1016/j.robot.2015.12.005 
+
+[6] Xiangke Wang, Changbin Yu, &amp; Zhiyun Lin. (2012). A dual quaternion solution to attitude and position control for rigid-body coordination. *IEEE Transactions on Robotics, 28(5), 1162–1170.* https://doi.org/10.1109/tro.2012.2196310 
+
+[7] Markley, F. L., &amp; Mortari, D. (2000). Quaternion attitude estimation using vector observations. *The Journal of the Astronautical Sciences, 48(2–3), 359–380.* https://doi.org/10.1007/bf03546284 
