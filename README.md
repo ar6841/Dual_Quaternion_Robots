@@ -125,7 +125,7 @@ $$
 
 This lets us encode both translation and rotation into one unique mathematical formulation, the applications of which are immense 
 
-## List of resources to learn dualquats and apply it to robotics. <a name="list"></a>
+## List of resources to understand dualquats. <a name="list"></a>
 
 I would go about learning the topics in this order, a good understanding of linear algebra is assumed:
 
