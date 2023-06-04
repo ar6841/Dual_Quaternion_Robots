@@ -1,7 +1,7 @@
 # Dual_Quaternion_Robots
 Robotics projects using dual quaternion algebra, some example .cpp files are shown. The submodules contain header files for modelling and controlling the robots. This repo should help you learn about dual quaternions and how you can use them to model robots.
 
-This topic is way too deep for me to explain in a github readme file, I'll present you use useful formulations that will motivate you to go through the [list of resources](#list). I HIGHLY recommend going through each topic in the list.
+This topic is way too deep for me to explain in a github readme file, I'll present some useful formulations that will motivate you to go through the [list of resources](#list). I HIGHLY recommend going through each topic in the list.
 
 TODO: Expand definitions and visualizations
 
