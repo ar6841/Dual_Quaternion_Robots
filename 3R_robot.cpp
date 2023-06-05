@@ -1,6 +1,6 @@
 #include<iostream>
 #include"Dual_Quaternion_Forward_Kinematics/kinematics.h"
-#include"Dual_Quaternion_Control/Dual_Pose_Control.h"
+#include"Dual_Quaternion_Control/controllers.h"
 
 
 // Order of joint vars {theta, alpha, a, d, type}
